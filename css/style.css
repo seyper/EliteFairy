@@ -37,13 +37,14 @@ body{
     color: white;
     text-shadow: 0px 2px 1px #333333, 2px 1px 2px #333333;
 }
+.logo:hover{
+    text-shadow: 0px 2px 1px #fff, 2px 1px 2px #fff;
+    color: #000;
+}
 a{
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
-}
-a:hover{
-    color: #000;
 }
 .banner-area{
     display: flex;
