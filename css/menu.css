@@ -31,7 +31,6 @@
     padding: 0;
   }
   .menu > ol > li {
-    background: #3c3c3c;
     border-left: 5px solid var(--gradient-color);
     margin-bottom: 1px;
     position: relative;
@@ -143,7 +142,6 @@
       text-align: center;
     }
     .menu > ol > li {
-      border-top: 5px solid var(--accent-color);
       border-left: 0;
       display: inline-block;
       margin-left: -5px;
