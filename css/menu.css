@@ -178,7 +178,7 @@
   }
   @media (min-width: 775px) {
     .menu > ol > li {
-      width: 150px;
+      width: 160px;
     }
     .menu > ol > li .referencia:not(:last-child):before {
       right: 25px;
