@@ -75,7 +75,7 @@
   .menu > ol > li:hover:after {
     background: linear-gradient(to left, var(--accent-color), var(--gradient-color));
     max-width: 200px;
-    margin: 5px;
+    margin: 10px;
   }
   .menu > ol > li:focus .sub-menu,
   .menu > ol > li:focus-within .sub-menu {
