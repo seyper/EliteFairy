@@ -57,6 +57,7 @@ a{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
 }
 .text-area{
     position: relative;
