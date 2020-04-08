@@ -107,6 +107,7 @@
     position: relative;
     transition: 0.5s;
     z-index: 1;
+    padding: 7px;
   }
   .menu > ol .sub-menu li {
     font-size: 0.9em;
