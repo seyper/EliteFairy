@@ -453,6 +453,7 @@ h1 {
     /* Activate hardware acceleration for smoother animations */
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
+    height: 1.5em;
   }
   
   /* Animate Background Image */
