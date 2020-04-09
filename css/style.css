@@ -32,14 +32,9 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 1.5%;
     color: white;
-    text-shadow: 0px 2px 1px #333333, 2px 1px 2px #333333;
-}
-.logo:hover{
-    text-shadow: 0px 2px 1px #fff, 2px 1px 2px #fff;
-    color: #000;
 }
 a{
     color: #000;
@@ -72,7 +67,7 @@ a{
     width: 65%;
     height: 80%;
 }
-h1{
+h3{
     font-size: 50px;
 }
 p{
@@ -119,3 +114,30 @@ html{
         border-right-color: transparent;
     }
 }
+/* LOGO */
+h1 {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    display: block;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    /* Clip Background Image */
+    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+  }
+  
+  /* Animate Background Image */
+  @-webkit-keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
