@@ -50,6 +50,15 @@ a{
 .mySlides{
     display: none;
 }
+.img-area{
+    background-image: url(../img/imgprincipal.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
 .img1-area{
     background-image: url(../img/recuerdo1.png);
     width: 100%;
@@ -87,7 +96,7 @@ a{
     height: 700px;
 }
 .text-part{
-    width: 65%;
+    width: 75%;
     height: 80%;
 }
 h3{
@@ -131,3 +140,16 @@ h1 {
       background-position: 100% 50%;
     }
   }
+  /* TEXTOS */
+.circle{
+    position: relative;
+    overflow: hidden;
+}
+.circle, .img1text{
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+    shape-outside: circle();
+    width: 300px;
+    height: 300px;
+}
