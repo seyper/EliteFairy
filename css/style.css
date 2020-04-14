@@ -15,9 +15,10 @@ body{
     flex-flow: row wrap;
     background-color: #000000c5;
     width: 100%;
-    height: 70px;
+    height: 50px;
     z-index: 3;
     padding: 10px;
+    text-align: center;
 }
 .menu{
     display: flex;
@@ -25,21 +26,14 @@ body{
     list-style: none;
     margin-right: 5%;
 }
-.logo{
-    flex: 1 1 auto;
-    margin-left: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 40px;
-    margin-top: 1.5%;
-    color: white;
-}
+
 a{
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
 }
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
 .banner-area{
     display: flex;
     justify-content: center;
@@ -114,6 +108,15 @@ html{
     scroll-behavior: smooth;
 }
 /* LOGO */
+.logo{
+  flex: 1 1 auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 0.5%;
+  color: white;
+}
 h1 {
     font: 700 4em/1 "Oswald", sans-serif;
     letter-spacing: 0;
