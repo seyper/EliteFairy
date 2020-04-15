@@ -80,22 +80,39 @@ a:focus, a:focus * { outline: none !important; -moz-outline-style: none !importa
     background-size: 100% 100%;
     background-attachment: fixed;
 }
-.text-area{
+.text-area-1{
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    /* margin-top: -50px; */
     width: 100%;
-    height: 700px;
+    height: 750px;
 }
+.text-area{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: -80px;
+  width: 100%;
+  height: 700px;
+}
+/* .parrafo-2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+} */
 .text-part{
-    width: 75%;
+    width: 85%;
     height: 80%;
-    text-align: center;
+    text-align: left;
 }
 h3{
     font-size: 50px;
+    text-align: center;
 }
 p{
     font-size: 24px;
@@ -151,9 +168,9 @@ h1 {
 }
 .circle, .img1text{
     float: left;
-    border-radius: 50%;
+    border-radius: 0%;
     margin: 10px;
-    shape-outside: circle();
+    /* shape-outside: circle(); */
     width: 300px;
     height: 300px;
 }
