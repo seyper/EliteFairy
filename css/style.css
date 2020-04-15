@@ -257,4 +257,7 @@ button {
     .img2-area{
       height: 80vh;
     }
+      button{
+      width: 180px;
+    }
   }
