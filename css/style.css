@@ -105,6 +105,9 @@ p{
     font-size: 32px;
     line-height: 50px;
 }
+.descripcion {
+  margin-bottom: 45px;
+}
 .text-area{
     background: #fefefe;
 }
