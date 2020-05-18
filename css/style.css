@@ -3,6 +3,8 @@
     src: url(../fonts/alegra/Alegra\ Font\ by\ 7NTypes.otf);
     font-weight: normal;
     font-style: normal;
+    font-family: Sweety Strawberry;
+    src: url(../fonts/Sweety\ Strawberry/SweetyStrawberry.otf)
 }
 body{
     margin: 0;
@@ -54,52 +56,51 @@ a:focus, a:focus * { outline: none !important; -moz-outline-style: none !importa
     background-attachment: fixed;
 }
 .img1-area{
-    background-image: url(../img/recuerdo1.png);
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 .img2-area{
-    background-image: url(../img/recuerdo2.png);
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-repeat: no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-    background-attachment: fixed;
 }
 .img3-area{
-    background-image: url(../img/recuerdo3.png);
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-repeat: no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-    background-attachment: fixed;
 }
 .text-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
-    height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 700px;
+  font-family: Sweety Strawberry;
 }
 .text-part{
-    width: 75%;
+    width: 85%;
     height: 80%;
-    text-align: center;
+    text-align: left;
 }
 h3{
     font-size: 50px;
+    text-align: center;
 }
 p{
-    font-size: 24px;
+    font-size: 32px;
     line-height: 50px;
+}
+.descripcion {
+  margin-bottom: 45px;
 }
 .text-area{
     background: #fefefe;
@@ -151,11 +152,11 @@ h1 {
 }
 .circle, .img1text{
     float: left;
-    border-radius: 50%;
+    border-radius: 0%;
     margin: 10px;
-    shape-outside: circle();
-    width: 300px;
-    height: 300px;
+    /* shape-outside: circle(); */
+    width: 350px;
+    height: 250px;
 }
 /* BOTON */
 button {
@@ -234,9 +235,10 @@ button {
       shape-outside: none;
       margin: 0px auto;
     }
-    .text-area{
+    .text-area {
       height: 600px;
       padding: 15px;
+      margin-left: -10px;
     }
     h3{
       font-size: 30px;
@@ -248,16 +250,28 @@ button {
     .text-part{
       height: 90%;
     }
-    .img1-area{
-      height: 80vh;
-      background-size: 100% 100%;
-      -webkit-background-size: 100% 100%;
-
-    }
-    .img2-area{
-      height: 80vh;
-    }
-    button{
+      button{
       width: 180px;
     }
   }
+@media(max-width: 361px){
+  .logo {
+    font-size: 38px;
+  }
+  .menu-button{
+    font-size: 20px;
+  }
+  #ivs, #bayas, #dinero, #huevo{
+    width: 300px;
+    height: 150px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #slide1, #slide2, #slide3, #slide4, #slide5, #slide6,
+  #slide7, #slide8, #slide9{
+    max-width: 100%;
+    height: auto;
+  }
+}
