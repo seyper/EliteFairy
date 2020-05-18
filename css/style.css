@@ -253,7 +253,6 @@ button {
       button{
       width: 180px;
     }
-<<<<<<< HEAD
   }
 @media(max-width: 361px){
   .logo {
@@ -276,9 +275,3 @@ button {
     height: auto;
   }
 }
-=======
-      button{
-      width: 180px;
-    }
-  }
->>>>>>> 350973944ea8cf3f44a83e7f216f4221d6828bff
