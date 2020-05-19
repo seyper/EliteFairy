@@ -237,8 +237,8 @@ button {
     }
     .text-area {
       height: 600px;
-      padding: 15px;
-      margin-left: -10px;
+      margin-left: 0px;
+      margin-bottom: 15px;
     }
     h3{
       font-size: 30px;
