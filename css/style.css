@@ -254,7 +254,7 @@ button {
       width: 180px;
     }
   }
-@media(max-width: 361px){
+@media(max-width: 376px){
   .logo {
     font-size: 38px;
   }
